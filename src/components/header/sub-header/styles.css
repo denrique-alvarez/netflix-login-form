@@ -1,0 +1,32 @@
+.sub-header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.header-link {
+  margin-top: 15px;
+  color: rgb(117, 140, 140);
+  font-weight: bold;
+}
+
+.header-link span {
+  padding-left: 8px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.logo {
+  margin-top: 10px;
+  width: 100px;
+  height: auto;
+  position: relative;
+  left: 35%;
+  cursor: pointer;
+}
+
+hr {
+  margin-top: 9px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+}
